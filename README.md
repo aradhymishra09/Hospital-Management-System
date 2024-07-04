@@ -2,7 +2,7 @@
 
 ## Overview
 
-This C program manages hospital cabins, allocating odd-numbered cabins to male patients and even-numbered cabins to female patients. The system maintains cabin details and handles waiting lists for when cabins are unavailable.
+The Hospital Cabin Management System is designed to efficiently manage the allocation of hospital cabins to patients. It handles the allocation of odd-numbered cabins to male patients and even-numbered cabins to female patients. In cases where cabins are unavailable, the system maintains waiting lists for male and female patients until cabins become free.
 
 ## Features
 
@@ -24,10 +24,26 @@ This C program manages hospital cabins, allocating odd-numbered cabins to male p
 
 ### Main Function
 
-The main function provides a menu-driven interface to admit, discharge patients, and view details.
+- Provides a menu-driven interface for users to interact with the system.
+- Options include admitting patients, discharging patients, viewing patient details, and displaying waiting lists.
+- Users can input their choice through a menu and the program executes the corresponding functionality.
 
 ## Usage
 
 1. **Compile**:
    ```sh
    gcc hospital_management.c -o hospital_management
+
+## Example Workflow
+- Upon starting the program, users are presented with a menu.
+- They can choose to admit a patient, discharge a patient, view patient details, or display waiting lists.
+- The program handles the allocation of cabins and manages waiting lists efficiently based on user input and system status.
+
+This Hospital Cabin Management System helps streamline the process of allocating hospital cabins, ensuring efficient patient management and utilization of resources.
+
+
+
+
+
+
+
